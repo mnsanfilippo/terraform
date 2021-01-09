@@ -24,7 +24,7 @@ jobs:
 
     - name: Setup Dependencies
       working-directory: tests/
-      run:  go mod init test && go get -v -t -d && go mod tidy
+      run:  go get -v -t -d && go mod tidy
 
     - name: Test
       working-directory: tests/
