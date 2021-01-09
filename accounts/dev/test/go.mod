@@ -1,4 +1,4 @@
-module testing/terratest/terraform/accounts/dev/test
+module test
 
 go 1.15
 

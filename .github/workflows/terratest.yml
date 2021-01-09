@@ -23,7 +23,7 @@ jobs:
         go-version: 1.15
 
     - name: Setup Dependencies
-      run:  go mod init test && go mod tidy && go get -u ./...
+      run:  go mod init test && go get -v -t -d ./test && go mod tidy && cat go.mod go.sum
 
     - name: Test
-      run: go test -v ./...
+      run: go test -v ./test
