@@ -21,7 +21,6 @@ jobs:
       uses: actions/setup-go@v2
       with:
         go-version: 1.15
-      run: go version
 
     - name: Setup Dependencies
       run: go get ./...
