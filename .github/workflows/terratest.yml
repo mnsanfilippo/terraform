@@ -26,4 +26,4 @@ jobs:
           path: main
 
       - name: Testing
-        - run go test -v ./../
+        run: go test -v ./../
