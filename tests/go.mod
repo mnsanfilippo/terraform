@@ -1,4 +1,4 @@
-module test
+module testing/terratest/terraform/tests
 
 go 1.15
 
